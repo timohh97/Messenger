@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timo Schessl Messenger Registration</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="./register2.js"></script>
+</head>
+<body>
+    <div id="mainForm">
+        <form>
+            <div id="status"></div>
+        <h2>Create a new account</h2>
+          <input type="text" placeholder="New username" id="username">
+          <br><br>
+          <input type="text" placeholder="Your email" id="email">
+          <br><br>
+          <input type="password" placeholder="Password" id="password">
+          <br><br>
+          <input type="password" placeholder="Repeat password" id="repeat">
+          <br><br>
+          <button onclick="validateLengthOfUsername();return false;">Sign up</button>
+          <br>
+          <br>
+          <button type="reset">Reset</button>
+        </form>
+        <br>
+        <a href="login.html">I already have an account</a>
+      </div>
+</body>
+</html>

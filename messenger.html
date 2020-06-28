@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail</title>
+    <link rel="stylesheet" href="messengerStyle.css">
+    <script src="sendMessage.js"></script>
+</head>
+
+<body>
+    <script>checkIfUserLoggedIn()</script>
+    <script>updateDropDownMenu()</script>
+    <div id="messageform">
+            <h1>Send a message</h1>
+            <label>To:</label>
+            <select id="dropdown">
+            </select>
+            <br>
+            <br>
+            <form method="POST" action="mailServerForMessagingBetweenUsers.php">
+            <br>
+            <textarea name="message" id="messagebox" placeholder="Your message....."></textarea>
+            <input id="to" type="hidden" name="to" value="" />
+            <input id="from" type="hidden" name="from" value="" />
+            <br>
+            <button type="submit" id="sendButton" onclick="sendEmail()">Send</button>
+            <br>
+            <br>
+            <button type="reset">Delete</button>
+            <br>
+            <br>
+            <button onclick="returnToLoginWindow();return false;">Logout</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+body
+{
+    background-image:url("telework.png");
+}
+
+#messageform
+{
+    margin: auto;
+    background-color: white;
+    display: block;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    margin-top:100px;
+}
+
+h1
+{
+    color: dimgrey;
+    font-family: Arial, 'Times New Roman', Times, serif;
+    font-weight:500;
+    text-transform: uppercase;
+}
+
+label
+{
+    color: dimgrey;
+    font-family: Arial, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+#messagebox
+{
+    resize:none;
+    width:300px;
+    height:150px;
+    font-size:larger;
+}
+
+#dropdown
+{
+    font-size:larger;
+    color:dimgrey;
+}
+
+button
+{
+    color: white;
+    font-family: Arial, 'Times New Roman', Times, serif;
+    font-size:x-large;
+    background-color:cornflowerblue;
